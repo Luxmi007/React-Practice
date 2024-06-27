@@ -26,7 +26,7 @@ function App() {
 function Button() {
   const [val, setVal] = useState(0);
   return (
-    <button onClick={() => setVal((value) => value + 1)}>New button count is {val}</button>
+    <button onClick={() => setVal((value) => value + 1)}>Button count is {val}</button>
   );
 }
 
